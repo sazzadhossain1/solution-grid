@@ -15,15 +15,7 @@ const NavigationBar = () => {
             <img className="mediaLogo_one" src={facebookLogo} alt="" />
             <img className="mediaLogo_two" src={instagramLogo} alt="" />
           </div>
-          <div className="language_div">
-            {/* <p>
-              Bangladesh (BDT <span className="taka">৳</span>) &nbsp;
-              <FontAwesomeIcon icon={faAngleDown} />
-            </p>
-            <p>
-              English <FontAwesomeIcon icon={faAngleDown} />
-            </p> */}
-          </div>
+          <div className="language_div"></div>
         </div>
       </div>
       <header>
@@ -55,48 +47,10 @@ const NavigationBar = () => {
                       <li className="dropdown-link">
                         <Link href="#">Team</Link>
                       </li>
-                      {/* <li className="dropdown-link">
-                        <a href="#">
-                          Link 3<i className="fas fa-caret-down"></i>
-                        </a>
-                        <div className="dropdown second">
-                          <ul>
-                            <li className="dropdown-link">
-                              <a href="#">Link 1</a>
-                            </li>
-                            <li className="dropdown-link">
-                              <a href="#">Link 2</a>
-                            </li>
-                            <li className="dropdown-link">
-                              <a href="#">Link 3</a>
-                            </li>
-                            <li className="dropdown-link">
-                              <a href="#">
-                                More<i className="fas fa-caret-down"></i>
-                              </a>
-                              <div className="dropdown second">
-                                <ul>
-                                  <li className="dropdown-link">
-                                    <a href="#">Link 1</a>
-                                  </li>
-                                  <li className="dropdown-link">
-                                    <a href="#">Link 2</a>
-                                  </li>
-                                  <li className="dropdown-link">
-                                    <a href="#">Link 3</a>
-                                  </li>
-                                  <div className="arrow"></div>
-                                </ul>
-                              </div>
-                            </li>
-                            <div className="arrow"></div>
-                          </ul>
-                        </div>
-                      </li> */}
+
                       <li className="dropdown-link">
                         <Link href="#">Factory</Link>
                       </li>
-                      {/* <div className="arrow"></div> */}
                     </ul>
                   </div>
                 </li>
@@ -113,44 +67,7 @@ const NavigationBar = () => {
                       <li className="dropdown-link">
                         <Link to="#">Women</Link>
                       </li>
-                      {/* <li className="dropdown-link">
-                        <a href="#">
-                          Link 3<i className="fas fa-caret-down"></i>
-                        </a>
-                        <div className="dropdown second">
-                          <ul>
-                            <li className="dropdown-link">
-                              <a href="#">Link 1</a>
-                            </li>
-                            <li className="dropdown-link">
-                              <a href="#">Link 2</a>
-                            </li>
-                            <li className="dropdown-link">
-                              <a href="#">Link 3</a>
-                            </li>
-                            <li className="dropdown-link">
-                              <a href="#">
-                                More<i className="fas fa-caret-down"></i>
-                              </a>
-                              <div className="dropdown second">
-                                <ul>
-                                  <li className="dropdown-link">
-                                    <a href="#">Link 1</a>
-                                  </li>
-                                  <li className="dropdown-link">
-                                    <a href="#">Link 2</a>
-                                  </li>
-                                  <li className="dropdown-link">
-                                    <a href="#">Link 3</a>
-                                  </li>
-                                  <div className="arrow"></div>
-                                </ul>
-                              </div>
-                            </li>
-                            <div className="arrow"></div>
-                          </ul>
-                        </div>
-                      </li> */}
+
                       <li className="dropdown-link">
                         <Link to="#">Kids</Link>
                       </li>
@@ -160,40 +77,17 @@ const NavigationBar = () => {
                       <li className="dropdown-link">
                         <Link to="#">Specialty Socks</Link>
                       </li>
-                      {/* <div className="arrow"></div> */}
                     </ul>
                   </div>
                 </li>
                 <li className="nav-link" style={{ "--i": ".85s" }}>
-                  <Link href="#">
-                    News & Events &nbsp;
-                    {/* <FontAwesomeIcon icon={faAngleDown} /> */}
-                  </Link>
-                  {/* <div className="dropdown">
-                    <ul>
-                      <li className="dropdown-link">
-                        <Link href="#">Our Mission and Vision</Link>
-                      </li>
-                    </ul>
-                  </div> */}
+                  <Link href="#">News & Events &nbsp;</Link>
                 </li>
                 <li className="nav-link" style={{ "--i": ".85s" }}>
-                  <Link href="#">
-                    Contact Us &nbsp;
-                    {/* <FontAwesomeIcon icon={faAngleDown} /> */}
-                  </Link>
+                  <Link href="#">Contact Us &nbsp;</Link>
                 </li>
               </ul>
             </div>
-
-            {/* <div className="log-sign" style={{ "--i": "1.8s" }}>
-              <a href="#" className="btn transparent">
-                Log in
-              </a>
-              <a href="#" className="btn solid">
-                Sign up
-              </a>
-            </div> */}
           </div>
 
           <div className="hamburger-menu-container">
