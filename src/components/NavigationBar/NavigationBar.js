@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 
 const NavigationBar = () => {
   return (
-    <div>
+    <div className="nav_media_main_div">
       <div className="nav_media_div_parent_div">
         <div className="nav_media_div">
           <div className="media_logo_div">
@@ -37,9 +37,9 @@ const NavigationBar = () => {
                 <li className="nav-link" style={{ "--i": ".85s" }}>
                   <Link href="#">
                     About Us &nbsp;
-                    <FontAwesomeIcon icon={faAngleDown} />
+                    {/* <FontAwesomeIcon icon={faAngleDown} /> */}
                   </Link>
-                  <div className="dropdown">
+                  {/* <div className="dropdown">
                     <ul>
                       <li className="dropdown-link">
                         <Link href="#">Mission and Vision</Link>
@@ -52,9 +52,9 @@ const NavigationBar = () => {
                         <Link href="#">Factory</Link>
                       </li>
                     </ul>
-                  </div>
+                  </div> */}
                 </li>
-                <li className="nav-link" style={{ "--i": "1.1s" }}>
+                {/* <li className="nav-link" style={{ "--i": "1.1s" }}>
                   <a href="#">
                     Products &nbsp;
                     <FontAwesomeIcon icon={faAngleDown} />
@@ -79,9 +79,12 @@ const NavigationBar = () => {
                       </li>
                     </ul>
                   </div>
+                </li> */}
+                <li className="nav-link" style={{ "--i": ".85s" }}>
+                  <Link href="#">Services &nbsp;</Link>
                 </li>
                 <li className="nav-link" style={{ "--i": ".85s" }}>
-                  <Link href="#">News & Events &nbsp;</Link>
+                  <Link href="#">Blogs &nbsp;</Link>
                 </li>
                 <li className="nav-link" style={{ "--i": ".85s" }}>
                   <Link href="#">Contact Us &nbsp;</Link>

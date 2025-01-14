@@ -24,7 +24,7 @@ const Footer = () => {
             </div>
             <div>
               <p>+88 017XX XXX XXX</p>
-              <p>solutiongrid@gmail.com</p>
+              <p>support@solutiongrid.com</p>
             </div>
           </dir>
         </div>
