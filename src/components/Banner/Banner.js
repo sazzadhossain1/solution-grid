@@ -8,8 +8,12 @@ const Banner = () => {
       <div className="overlay"></div>
       <video className="video" src={video} autoPlay loop muted />
       <div className="banner_container">
-        {/* <h1>Welcome</h1>
-        <p>To my site.</p> */}
+        <h2>
+          Thinking of getting a website, software or Mobile App for your
+          business?
+        </h2>
+        {/* <p>To my site.</p> */}
+        <h2>Think no other but Solutiongrid The best that there is!</h2>
       </div>
     </div>
   );

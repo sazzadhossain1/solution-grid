@@ -1,0 +1,7 @@
+.blog_parent_div {
+  padding-top: 130px;
+}
+.blogUi_image {
+  max-width: 400px;
+  object-fit: cover;
+}

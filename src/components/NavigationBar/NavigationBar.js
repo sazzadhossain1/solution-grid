@@ -84,7 +84,7 @@ const NavigationBar = () => {
                   <Link href="#">Services &nbsp;</Link>
                 </li>
                 <li className="nav-link" style={{ "--i": ".85s" }}>
-                  <Link href="#">Blogs &nbsp;</Link>
+                  <Link to="/blog">Blogs &nbsp;</Link>
                 </li>
                 <li className="nav-link" style={{ "--i": ".85s" }}>
                   <Link href="#">Contact Us &nbsp;</Link>

@@ -6,10 +6,13 @@
 .first_photo {
   width: 100%;
   height: 250px;
-  object-fit: cover;
+  object-fit: contain;
 }
 .first_more_btn_div {
   margin-top: 15px;
+}
+.text {
+  text-align: left;
 }
 .first_more_btn {
   color: black;
