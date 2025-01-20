@@ -1,12 +1,23 @@
 .secondSectionCart_main_parent_div {
-  text-align: left;
+  /* text-align: left; */
+  margin-top: 40px;
 }
 .secondSectionCart_parent_div {
-  text-align: left;
+  /* text-align: left; */
   height: 300px;
 }
+.icon_div {
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center; /* Centers vertically */
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  margin: auto;
+}
 .icon {
-  font-size: 50px;
+  font-size: 40px;
 }
 .secondSectionCart_image {
   width: 100%;

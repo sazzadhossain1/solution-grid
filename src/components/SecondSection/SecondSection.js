@@ -14,24 +14,28 @@ const SecondSection = () => {
     {
       id: 1,
       title: "Free Consultation",
+      color: "#313d77",
       icon: <FontAwesomeIcon icon={faComments} />,
       text: "We sit down to find scope of the project, identify key areas and make suggestions",
     },
     {
       id: 2,
       title: "Plan & Budget",
+      color: "#00b894",
       icon: <FontAwesomeIcon icon={faClipboardList} />,
       text: "Concrete Features planning or System Analysis & Design with timeframe and budget",
     },
     {
       id: 3,
       title: "Development & Testing",
+      color: "#6c5ce7",
       icon: <FontAwesomeIcon icon={faCubes} />,
       text: "Development as planned and complete testing of the developed product",
     },
     {
       id: 4,
       title: "Delivery & Feedback",
+      color: "#fdcb6e",
       icon: <FontAwesomeIcon icon={faStar} />,
       text: "Deliver the project and receive feedback from clients. Make changes or further correct if there is any request from clients",
     },
