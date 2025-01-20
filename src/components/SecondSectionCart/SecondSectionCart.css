@@ -3,29 +3,23 @@
 }
 .secondSectionCart_parent_div {
   text-align: left;
-  /* background-color: red; */
   height: 300px;
+}
+.icon {
+  font-size: 50px;
 }
 .secondSectionCart_image {
   width: 100%;
   object-fit: cover;
   border-radius: 10px;
 }
-.paragraph {
-  margin-top: -100px;
-  margin-left: 10px;
-  color: white;
-  font-size: 30px;
-}
+
 @media screen and (max-width: 1536px) {
   .secondSectionCart_parent_div {
     height: 270px;
   }
 }
 @media screen and (max-width: 1313px) {
-  .paragraph {
-    font-size: 25px;
-  }
   .secondSectionCart_parent_div {
     height: 250px;
   }
@@ -39,15 +33,8 @@
   .secondSectionCart_parent_div {
     height: 200px;
   }
-  .paragraph {
-    font-size: 22px;
-  }
 }
-@media screen and (max-width: 876px) {
-  .paragraph {
-    font-size: 20px;
-  }
-}
+
 @media screen and (max-width: 790px) {
   .secondSectionCart_parent_div {
     height: 170px;

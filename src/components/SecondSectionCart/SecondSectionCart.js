@@ -1,15 +1,18 @@
 import React from "react";
 import "./SecondSectionCart.css";
-import { Link } from "react-router-dom";
+
 const SecondSectionCart = ({ cart }) => {
-  const { paragraph, image, btn } = cart;
+  const { title, icon, text } = cart;
+  console.log(title);
   return (
     <div className="secondSectionCart_main_parent_div">
       <div className="secondSectionCart_parent_div">
         <div>
-          <img className="secondSectionCart_image" src={image} alt="" />
+          {/* <img className="secondSectionCart_image" src={image} alt="" /> */}
+          <p className="icon">{icon}</p>
+          <h2 className="">{title}</h2>
+          <p>{text}</p>
         </div>
-        <h2 className="paragraph">{paragraph}</h2>
       </div>
     </div>
   );
