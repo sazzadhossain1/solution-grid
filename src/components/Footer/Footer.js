@@ -12,18 +12,15 @@ const Footer = () => {
     <div className="footer_parent_div">
       <div className="footer_grit_div">
         <div className="footer_cart">
-          <h3>Lorem ipsum dolor sit amet.</h3>
-          <p>
-            Together, we pool our resources, skills, and expertise to build a
-            better future, positively impacting the world.
-          </p>
+          <h3>Contact us</h3>
+          <p>3653 Briargrove Ln, Dallas, TX 75287</p>
           <dir className="footer_contact_div">
             <div>
               <p>General Contact​</p>
               <p>Send a message</p>
             </div>
             <div>
-              <p>+88 017XX XXX XXX</p>
+              <p>1.214.736.3385</p>
               <p>support@solutiongrid.com</p>
             </div>
           </dir>
@@ -46,7 +43,7 @@ const Footer = () => {
           </div>
           <div>
             <h5>Useful Links</h5>
-            <p>
+            {/* <p>
               <Link>Media</Link>
             </p>
             <p>
@@ -57,7 +54,10 @@ const Footer = () => {
             </p>
             <p>
               <Link>Sitemap</Link>
-            </p>
+            </p> */}
+            <p>FAQ</p>
+            <p>Privacy & Policy</p>
+            <p>Terms & Conditions</p>
           </div>
           <div>
             <h5>Legal</h5>

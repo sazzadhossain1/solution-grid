@@ -2,6 +2,8 @@
   padding-top: 130px;
 }
 .blogUi_image {
-  max-width: 400px;
-  object-fit: cover;
+}
+.blog_text_div {
+  width: 30%;
+  margin: auto;
 }

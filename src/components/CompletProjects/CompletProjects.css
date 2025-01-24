@@ -1,0 +1,22 @@
+.completeProjects_title {
+  font-size: 40px;
+}
+.completProjects_grid_div {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 70%;
+  margin: auto;
+  gap: 30px;
+  margin-top: 70px;
+}
+
+.completeProjects_cart {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.some_work_div {
+  margin-top: 70px;
+}
+.projectsOne {
+  margin-top: 30px;
+}

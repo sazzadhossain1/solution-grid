@@ -91,6 +91,10 @@ const NavigationBar = () => {
                 </li>
               </ul>
             </div>
+            <div>
+              <p>1.214.736.3385</p>
+              <p>support@solutiongrid.com</p>
+            </div>
           </div>
 
           <div className="hamburger-menu-container">

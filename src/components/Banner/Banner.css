@@ -33,13 +33,13 @@
   height: 86%;
   background-color: rgba(0, 0, 0, 0.5);
 }
-@media screen and (max-width: 1271px) {
+@media screen and (max-width: 1536px) {
   .overlay {
-    top: 84px;
+    top: 97px;
   }
 }
-@media screen and (max-width: 1145px) {
-  .overlay {
-    top: 80px;
+@media screen and (max-width: 850px) {
+  .banner_container h2 {
+    line-height: 50px;
   }
 }

@@ -7,17 +7,21 @@ import ThirdSection from "../ThirdSection/ThirdSection";
 import FourthSection from "../FourthSection/FourthSection";
 import FifthSection from "../FifthSection/FifthSection";
 import SixSection from "../SixSection/SixSection";
+import CompletProjects from "../CompletProjects/CompletProjects";
+import Blog from "../Blog/Blog";
 
 const Home = () => {
   return (
     <div>
       <Banner></Banner>
       <FirstSection></FirstSection>
-      <SecondSection></SecondSection>
+      {/* <SecondSection></SecondSection> */}
       {/* <ThirdSection></ThirdSection> */}
-      <FourthSection></FourthSection>
-      <FifthSection></FifthSection>
-      <SixSection></SixSection>
+      {/* <FourthSection></FourthSection> */}
+      {/* <CompletProjects></CompletProjects> */}
+      {/* <Blog></Blog> */}
+      {/* <FifthSection></FifthSection> */}
+      {/* <SixSection></SixSection> */}
     </div>
   );
 };
