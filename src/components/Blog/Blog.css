@@ -7,3 +7,21 @@
   width: 30%;
   margin: auto;
 }
+@media screen and (max-width: 1250px) {
+  .blog_text_div {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 950px) {
+  .blog_text_div {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .blogUi_image {
+    max-width: 100%;
+  }
+  .blog_text_div {
+    width: 90%;
+  }
+}

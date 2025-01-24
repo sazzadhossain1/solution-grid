@@ -17,11 +17,11 @@ const Home = () => {
       <FirstSection></FirstSection>
       <SecondSection></SecondSection>
       {/* <ThirdSection></ThirdSection> */}
-      {/* <FourthSection></FourthSection> */}
-      {/* <CompletProjects></CompletProjects> */}
-      {/* <Blog></Blog> */}
-      {/* <FifthSection></FifthSection> */}
-      {/* <SixSection></SixSection> */}
+      <FourthSection></FourthSection>
+      <CompletProjects></CompletProjects>
+      <Blog></Blog>
+      <FifthSection></FifthSection>
+      <SixSection></SixSection>
     </div>
   );
 };

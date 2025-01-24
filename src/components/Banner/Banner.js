@@ -12,7 +12,7 @@ const Banner = () => {
           Thinking of getting a website, software or Mobile App for your
           business?
         </h2>
-        {/* <p>To my site.</p> */}
+
         <h2>Think no other but Solutiongrid The best that there is!</h2>
       </div>
     </div>

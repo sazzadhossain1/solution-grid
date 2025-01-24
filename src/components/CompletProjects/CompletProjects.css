@@ -19,4 +19,25 @@
 }
 .projectsOne {
   margin-top: 30px;
+  max-width: 98%;
+}
+@media screen and (max-width: 900px) {
+  .completProjects_grid_div {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 534px) {
+  .completProjects_grid_div {
+    width: 98%;
+  }
+}
+@media screen and (max-width: 400px) {
+  .completProjects_grid_div {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 350px) {
+  .completProjects_grid_div {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }

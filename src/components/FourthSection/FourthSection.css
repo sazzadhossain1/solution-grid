@@ -4,7 +4,7 @@
   gap: 30px;
   width: 65%;
   margin: auto;
-  margin-top: 150px;
+  margin-top: 50px;
   margin-bottom: 100px;
 }
 .fourth_section_text_parent_div {
@@ -23,8 +23,7 @@
   height: 500px;
   object-fit: contain;
 }
-.newsAndEvents {
-}
+
 .fourth_section_flex_div {
   display: flex;
   justify-content: center;
@@ -75,7 +74,7 @@
   .fourth_section_grid_div {
     grid-template-columns: 1fr;
     width: 95%;
-    gap: 0px;
+    gap: 20px;
   }
   .fourth_section_photoOne {
     height: 80%;
